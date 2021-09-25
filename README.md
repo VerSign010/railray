@@ -3,8 +3,8 @@
 
 <details>
     <summary>cloudflare workers deployment</summary>
-```js
     
+```js
 const SingleDay = 'xxx.up.railway.app'
 const DoubleDay = 'xxx.up.railway.app'
 addEventListener(
@@ -26,6 +26,7 @@ addEventListener(
     }
 )
 ```
+    
 </details>
 
       
