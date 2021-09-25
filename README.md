@@ -3,8 +3,29 @@
 
 <details>
     <summary>cloudflare workers deployment</summary>
+
+ # 单反代
+<details>    
     
 ```js
+addEventListener(
+    "fetch",event => {
+    let url=new URL(event.request.url);
+    url.hostname="xxx.up.railway.app";
+    let request=new Request(url,event.request);
+    event. respondWith(
+      fetch(request)
+    )
+  }
+)
+```
+    
+</details>
+    
+# 双反代
+<details>    
+    
+```js   
 const SingleDay = 'xxx.up.railway.app'
 const DoubleDay = 'xxx.up.railway.app'
 addEventListener(
