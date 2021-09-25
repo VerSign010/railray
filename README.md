@@ -5,7 +5,6 @@
     <summary>cloudflare workers deployment</summary>
 
  # 单反代
-<details>    
     
 ```js
 addEventListener(
@@ -20,7 +19,6 @@ addEventListener(
 )
 ```
     
-</details>
     
 # 双反代
 <details>    
