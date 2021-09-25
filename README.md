@@ -1,7 +1,7 @@
 # v2 depolys on railway
 
 # cloudflare workers deployment
-'''
+
 const SingleDay = 'xxx.up.railway.app'
 const DoubleDay = 'xxx.up.railway.app'
 addEventListener(
@@ -22,8 +22,6 @@ addEventListener(
         )
     }
 )
-```
-</details>
 
 
 
