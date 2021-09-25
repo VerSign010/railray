@@ -2,6 +2,8 @@
 
 # cloudflare workers deployment
 
+'''
+
 const SingleDay = 'xxx.up.railway.app'
 const DoubleDay = 'xxx.up.railway.app'
 addEventListener(
@@ -24,4 +26,4 @@ addEventListener(
 )
 
 
-
+'''
