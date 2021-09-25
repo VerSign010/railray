@@ -1,6 +1,6 @@
 # v2 depolys on railway
 
-
+<details>
 <summary>cloudflare workers deployment</summary>
 ```js
 const SingleDay = 'xxx.up.railway.app'
