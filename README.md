@@ -3,7 +3,6 @@
 
 <details>
     <summary>cloudflare workers deployment</summary>
-    
 ```js
     
 const SingleDay = 'xxx.up.railway.app'
@@ -26,7 +25,6 @@ addEventListener(
         )
     }
 )
-    
 ```
 </details>
 
