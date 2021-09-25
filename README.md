@@ -21,7 +21,6 @@ addEventListener(
     
     
 # 双反代
-<details>    
     
 ```js   
 const SingleDay = 'xxx.up.railway.app'
